@@ -1,0 +1,4 @@
+[functions.market-quotes]
+verify_jwt = false
+# 函数内调用 Supabase Auth /user 验证真实用户，并检查 OWNER_EMAIL。
+# 关闭的是网关的旧 JWT 检查，不是应用身份校验。
